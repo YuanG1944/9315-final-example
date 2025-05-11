@@ -1,0 +1,22 @@
+# COMP9315 21T1 Final Exam Q4
+
+Type your answer(s) to replace the xxx's
+Submit this file as your answer for Q4
+
+
+id     = 4 bytes  
+code   = 8 bytes  
+avg    = 8 bytes  
+data   = 4 + 8 + 8 = 20 bytes  
+
+
+a.
+R = 4 (header) + 20 = 24 bytes
+
+
+b.
+c= floor(4000/24) = floor(166.66) = 166tuples/page
+
+
+c.
+b= ceil(10000/166) = ceil(60.24 )= 61pages

@@ -1,0 +1,9 @@
+{
+  "files.associations": {
+    "*.snap": "typescript",
+    "unistd.h": "c",
+    "no-frills.h": "c",
+    "fcntl.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "disabled"
+}

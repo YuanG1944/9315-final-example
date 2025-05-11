@@ -1,0 +1,25 @@
+# COMP9315 21T1 Final Exam Q5
+  
+Type your answer(s) to replace the xxx's
+Submit this file as your answer for Q5
+
+a.  cost of projection using sorting for duplicate removal
+
+Read original file = 200
+Write projected file = 100
+Sort (2 passes over 100 pages) = 2 * 100 * 2 = 400
+Write final result = 80
+
+Total cost using sorting = 200 + 100 + 400 + 80 = 780 pages
+
+
+b.  cost of projection using hashing for duplicate removal
+
+Read original file = 200
+Write hash partitions = 100
+Read hash partitions = 100
+Write final result = 80
+
+Total cost using hashing = 200 + 100 + 100 + 80 = 480 pages
+
+

@@ -1,0 +1,27 @@
+# COMP9315 21T1 Final Exam Q7
+  
+Type your answer(s) to replace the xxx's
+Submit this file as your answer for Q7
+
+
+-- Q1
+Tmp1 = Sel[c=5 ∧ d=8] S
+Res  = Tmp1
+
+-- Q2
+Tmp1 = R Join[R.c = S.c] S
+Res  = Proj[a,d] Tmp1
+
+-- Q3
+Tmp1 = Sel[d=3] S
+Tmp2 = Proj[c] Tmp1
+Tmp3 = Sel[c in Tmp2] R
+Res  = Tmp3
+
+-- Q4
+Tmp1 = Sel[b=2] R
+Tmp2 = Sel[c=5] S
+Tmp3 = Sel[e=10] T
+Tmp4 = Tmp1 Join[Tmp1.c = Tmp2.c] Tmp2
+Tmp5 = Tmp4 Join[Tmp4.d = Tmp3.d] Tmp3
+Res  = Proj[a,f,g] Tmp5

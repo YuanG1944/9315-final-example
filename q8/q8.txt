@@ -1,0 +1,40 @@
+# COMP9315 21T1 Final Exam Q8
+  
+Type your answer(s) to replace the xxx's
+Submit this file as your answer for Q8
+
+
+Query descriptor = 0100010100
+Bit positions with 1s = [1, 4, 7]
+
+a.
+Start with:
+Match = 11111111
+
+After AND with bit[1] = 10100101
+11111111  
+AND  
+10100101  
+---------  
+10100101 
+
+After AND with bit[4] = 01011001
+10100101  
+AND  
+11101001  
+---------  
+10100001  
+
+After AND with bit[7] = 10100001
+10100001  
+AND  
+10100001  
+---------  
+10100001  
+
+Final matching slice: 10100001
+
+b.
+potential matches:[0, 2, 7]
+
+
